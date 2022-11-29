@@ -14,7 +14,7 @@ spec:
         app: example-application
     spec:
       containers:
-      - image: robertzhangwenjie/example-application:v2.2
+      - image: zhangwenjie/example-application:refs/heads/main
         name: example-application
         ports:
         - containerPort: 8080
